@@ -1,0 +1,43 @@
+#################
+### Git/ GitHub
+#################
+
+1. Download the desktop repository of git 
+	http://git-scm.com/download/win
+2. Set Up As ususal
+3. Go directory folder add and use git bash command mode
+4. Config the git	
+	>> git init
+	>> git config user.name "Your Name"
+	>> git config user.email "exaple@example.com"
+	
+5. Now check the git status
+	>> git status
+
+6. Add the all file of directory
+	>> git add .
+  or single file add
+    >> git add filename.ext
+
+7.Commit the all file 
+  >> git commit -m "commit mesasge"
+
+
+ 8. Create github account and signin with your account.
+ 
+ 9. Now create repository and type your project name and description. Also add read me file add.
+ 
+ 10. You can manually upload or git also upload from git repository from desktop. desktop command
+	>> git remote add origin https:github.com/username/projectname.git
+	>> git push -u origin master
+	>> type git username and password
+ 
+ 11. Completed the commit.
+ 
+ 12. After any change from local file or add any file.Then agin add file and commit command again execute.
+ 
+ 13. After that upload the change in github
+	>> git pull origin master
+	>> git push origin master
+
+14. All the commit completed this way.
